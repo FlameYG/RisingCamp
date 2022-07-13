@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		392AC5A7287C627000FEF217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392AC5A6287C627000FEF217 /* AppDelegate.swift */; };
+		392AC5A9287C627000FEF217 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392AC5A8287C627000FEF217 /* SceneDelegate.swift */; };
+		392AC5AB287C627000FEF217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392AC5AA287C627000FEF217 /* ViewController.swift */; };
+		392AC5AE287C627000FEF217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392AC5AC287C627000FEF217 /* Main.storyboard */; };
+		392AC5B0287C627100FEF217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392AC5AF287C627100FEF217 /* Assets.xcassets */; };
+		392AC5B3287C627100FEF217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392AC5B1287C627100FEF217 /* LaunchScreen.storyboard */; };
+		392AC5BE287C627100FEF217 /* ex_kakaot_220711Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392AC5BD287C627100FEF217 /* ex_kakaot_220711Tests.swift */; };
+		392AC5C8287C627100FEF217 /* ex_kakaot_220711UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392AC5C7287C627100FEF217 /* ex_kakaot_220711UITests.swift */; };
+		392AC5CA287C627100FEF217 /* ex_kakaot_220711UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392AC5C9287C627100FEF217 /* ex_kakaot_220711UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		392AC5BA287C627100FEF217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392AC59B287C627000FEF217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 392AC5A2287C627000FEF217;
+			remoteInfo = ex_kakaot_220711;
+		};
+		392AC5C4287C627100FEF217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392AC59B287C627000FEF217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 392AC5A2287C627000FEF217;
+			remoteInfo = ex_kakaot_220711;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		392AC5A3287C627000FEF217 /* ex_kakaot_220711.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ex_kakaot_220711.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		392AC5A6287C627000FEF217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		392AC5A8287C627000FEF217 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		392AC5AA287C627000FEF217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		392AC5AD287C627000FEF217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		392AC5AF287C627100FEF217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		392AC5B2287C627100FEF217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		392AC5B4287C627100FEF217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392AC5B9287C627100FEF217 /* ex_kakaot_220711Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ex_kakaot_220711Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392AC5BD287C627100FEF217 /* ex_kakaot_220711Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex_kakaot_220711Tests.swift; sourceTree = "<group>"; };
+		392AC5C3287C627100FEF217 /* ex_kakaot_220711UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ex_kakaot_220711UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392AC5C7287C627100FEF217 /* ex_kakaot_220711UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex_kakaot_220711UITests.swift; sourceTree = "<group>"; };
+		392AC5C9287C627100FEF217 /* ex_kakaot_220711UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex_kakaot_220711UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		392AC5A0287C627000FEF217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392AC5B6287C627100FEF217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392AC5C0287C627100FEF217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		392AC59A287C627000FEF217 = {
+			isa = PBXGroup;
+			children = (
+				392AC5A5287C627000FEF217 /* ex_kakaot_220711 */,
+				392AC5BC287C627100FEF217 /* ex_kakaot_220711Tests */,
+				392AC5C6287C627100FEF217 /* ex_kakaot_220711UITests */,
+				392AC5A4287C627000FEF217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		392AC5A4287C627000FEF217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				392AC5A3287C627000FEF217 /* ex_kakaot_220711.app */,
+				392AC5B9287C627100FEF217 /* ex_kakaot_220711Tests.xctest */,
+				392AC5C3287C627100FEF217 /* ex_kakaot_220711UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		392AC5A5287C627000FEF217 /* ex_kakaot_220711 */ = {
+			isa = PBXGroup;
+			children = (
+				392AC5A6287C627000FEF217 /* AppDelegate.swift */,
+				392AC5A8287C627000FEF217 /* SceneDelegate.swift */,
+				392AC5AA287C627000FEF217 /* ViewController.swift */,
+				392AC5AC287C627000FEF217 /* Main.storyboard */,
+				392AC5AF287C627100FEF217 /* Assets.xcassets */,
+				392AC5B1287C627100FEF217 /* LaunchScreen.storyboard */,
+				392AC5B4287C627100FEF217 /* Info.plist */,
+			);
+			path = ex_kakaot_220711;
+			sourceTree = "<group>";
+		};
+		392AC5BC287C627100FEF217 /* ex_kakaot_220711Tests */ = {
+			isa = PBXGroup;
+			children = (
+				392AC5BD287C627100FEF217 /* ex_kakaot_220711Tests.swift */,
+			);
+			path = ex_kakaot_220711Tests;
+			sourceTree = "<group>";
+		};
+		392AC5C6287C627100FEF217 /* ex_kakaot_220711UITests */ = {
+			isa = PBXGroup;
+			children = (
+				392AC5C7287C627100FEF217 /* ex_kakaot_220711UITests.swift */,
+				392AC5C9287C627100FEF217 /* ex_kakaot_220711UITestsLaunchTests.swift */,
+			);
+			path = ex_kakaot_220711UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		392AC5A2287C627000FEF217 /* ex_kakaot_220711 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392AC5CD287C627100FEF217 /* Build configuration list for PBXNativeTarget "ex_kakaot_220711" */;
+			buildPhases = (
+				392AC59F287C627000FEF217 /* Sources */,
+				392AC5A0287C627000FEF217 /* Frameworks */,
+				392AC5A1287C627000FEF217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex_kakaot_220711;
+			productName = ex_kakaot_220711;
+			productReference = 392AC5A3287C627000FEF217 /* ex_kakaot_220711.app */;
+			productType = "com.apple.product-type.application";
+		};
+		392AC5B8287C627100FEF217 /* ex_kakaot_220711Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392AC5D0287C627100FEF217 /* Build configuration list for PBXNativeTarget "ex_kakaot_220711Tests" */;
+			buildPhases = (
+				392AC5B5287C627100FEF217 /* Sources */,
+				392AC5B6287C627100FEF217 /* Frameworks */,
+				392AC5B7287C627100FEF217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392AC5BB287C627100FEF217 /* PBXTargetDependency */,
+			);
+			name = ex_kakaot_220711Tests;
+			productName = ex_kakaot_220711Tests;
+			productReference = 392AC5B9287C627100FEF217 /* ex_kakaot_220711Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		392AC5C2287C627100FEF217 /* ex_kakaot_220711UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392AC5D3287C627100FEF217 /* Build configuration list for PBXNativeTarget "ex_kakaot_220711UITests" */;
+			buildPhases = (
+				392AC5BF287C627100FEF217 /* Sources */,
+				392AC5C0287C627100FEF217 /* Frameworks */,
+				392AC5C1287C627100FEF217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392AC5C5287C627100FEF217 /* PBXTargetDependency */,
+			);
+			name = ex_kakaot_220711UITests;
+			productName = ex_kakaot_220711UITests;
+			productReference = 392AC5C3287C627100FEF217 /* ex_kakaot_220711UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		392AC59B287C627000FEF217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					392AC5A2287C627000FEF217 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					392AC5B8287C627100FEF217 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 392AC5A2287C627000FEF217;
+					};
+					392AC5C2287C627100FEF217 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 392AC5A2287C627000FEF217;
+					};
+				};
+			};
+			buildConfigurationList = 392AC59E287C627000FEF217 /* Build configuration list for PBXProject "ex_kakaot_220711" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 392AC59A287C627000FEF217;
+			productRefGroup = 392AC5A4287C627000FEF217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				392AC5A2287C627000FEF217 /* ex_kakaot_220711 */,
+				392AC5B8287C627100FEF217 /* ex_kakaot_220711Tests */,
+				392AC5C2287C627100FEF217 /* ex_kakaot_220711UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		392AC5A1287C627000FEF217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392AC5B3287C627100FEF217 /* LaunchScreen.storyboard in Resources */,
+				392AC5B0287C627100FEF217 /* Assets.xcassets in Resources */,
+				392AC5AE287C627000FEF217 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392AC5B7287C627100FEF217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392AC5C1287C627100FEF217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		392AC59F287C627000FEF217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392AC5AB287C627000FEF217 /* ViewController.swift in Sources */,
+				392AC5A7287C627000FEF217 /* AppDelegate.swift in Sources */,
+				392AC5A9287C627000FEF217 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392AC5B5287C627100FEF217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392AC5BE287C627100FEF217 /* ex_kakaot_220711Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392AC5BF287C627100FEF217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392AC5C8287C627100FEF217 /* ex_kakaot_220711UITests.swift in Sources */,
+				392AC5CA287C627100FEF217 /* ex_kakaot_220711UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		392AC5BB287C627100FEF217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 392AC5A2287C627000FEF217 /* ex_kakaot_220711 */;
+			targetProxy = 392AC5BA287C627100FEF217 /* PBXContainerItemProxy */;
+		};
+		392AC5C5287C627100FEF217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 392AC5A2287C627000FEF217 /* ex_kakaot_220711 */;
+			targetProxy = 392AC5C4287C627100FEF217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		392AC5AC287C627000FEF217 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392AC5AD287C627000FEF217 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		392AC5B1287C627100FEF217 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392AC5B2287C627100FEF217 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		392AC5CB287C627100FEF217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		392AC5CC287C627100FEF217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		392AC5CE287C627100FEF217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5VN784N4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ex_kakaot_220711/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yg.ex-kakaot-220711";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		392AC5CF287C627100FEF217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5VN784N4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ex_kakaot_220711/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yg.ex-kakaot-220711";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		392AC5D1287C627100FEF217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5VN784N4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yg.ex-kakaot-220711Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ex_kakaot_220711.app/ex_kakaot_220711";
+			};
+			name = Debug;
+		};
+		392AC5D2287C627100FEF217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5VN784N4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yg.ex-kakaot-220711Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ex_kakaot_220711.app/ex_kakaot_220711";
+			};
+			name = Release;
+		};
+		392AC5D4287C627100FEF217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5VN784N4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yg.ex-kakaot-220711UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ex_kakaot_220711;
+			};
+			name = Debug;
+		};
+		392AC5D5287C627100FEF217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5VN784N4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yg.ex-kakaot-220711UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ex_kakaot_220711;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		392AC59E287C627000FEF217 /* Build configuration list for PBXProject "ex_kakaot_220711" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392AC5CB287C627100FEF217 /* Debug */,
+				392AC5CC287C627100FEF217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392AC5CD287C627100FEF217 /* Build configuration list for PBXNativeTarget "ex_kakaot_220711" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392AC5CE287C627100FEF217 /* Debug */,
+				392AC5CF287C627100FEF217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392AC5D0287C627100FEF217 /* Build configuration list for PBXNativeTarget "ex_kakaot_220711Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392AC5D1287C627100FEF217 /* Debug */,
+				392AC5D2287C627100FEF217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392AC5D3287C627100FEF217 /* Build configuration list for PBXNativeTarget "ex_kakaot_220711UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392AC5D4287C627100FEF217 /* Debug */,
+				392AC5D5287C627100FEF217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 392AC59B287C627000FEF217 /* Project object */;
+}
