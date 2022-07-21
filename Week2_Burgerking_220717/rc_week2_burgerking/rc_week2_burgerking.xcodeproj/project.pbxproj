@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		397C71762885833900E9442D /* OpenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C71752885833900E9442D /* OpenViewController.swift */; };
-		39A457E42885B1210024CBE3 /* MenuView Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A457E32885B1210024CBE3 /* MenuView Controller.swift */; };
-		39A457E62885B1860024CBE3 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A457E52885B1860024CBE3 /* BasketViewController.swift */; };
+		3924CBAA28884BDB00D89EAD /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3924CBA928884BDB00D89EAD /* BasketViewController.swift */; };
+		39A457E42885B1210024CBE3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A457E32885B1210024CBE3 /* MenuViewController.swift */; };
 		39E5DABD288432E000C56B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5DABC288432E000C56B9D /* AppDelegate.swift */; };
 		39E5DABF288432E000C56B9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5DABE288432E000C56B9D /* SceneDelegate.swift */; };
 		39E5DAC1288432E000C56B9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5DAC0288432E000C56B9D /* ViewController.swift */; };
@@ -39,9 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		397C71752885833900E9442D /* OpenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenViewController.swift; sourceTree = "<group>"; };
-		39A457E32885B1210024CBE3 /* MenuView Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenuView Controller.swift"; sourceTree = "<group>"; };
-		39A457E52885B1860024CBE3 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		3924CBA928884BDB00D89EAD /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		39A457E32885B1210024CBE3 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		39E5DAB9288432E000C56B9D /* rc_week2_burgerking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rc_week2_burgerking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E5DABC288432E000C56B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39E5DABE288432E000C56B9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,9 +106,8 @@
 				39E5DABC288432E000C56B9D /* AppDelegate.swift */,
 				39E5DABE288432E000C56B9D /* SceneDelegate.swift */,
 				39E5DAC0288432E000C56B9D /* ViewController.swift */,
-				397C71752885833900E9442D /* OpenViewController.swift */,
-				39A457E32885B1210024CBE3 /* MenuView Controller.swift */,
-				39A457E52885B1860024CBE3 /* BasketViewController.swift */,
+				39A457E32885B1210024CBE3 /* MenuViewController.swift */,
+				3924CBA928884BDB00D89EAD /* BasketViewController.swift */,
 				39E5DAC2288432E000C56B9D /* Main.storyboard */,
 				39E5DAC5288432E200C56B9D /* Assets.xcassets */,
 				39E5DAC7288432E200C56B9D /* LaunchScreen.storyboard */,
@@ -267,9 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39A457E62885B1860024CBE3 /* BasketViewController.swift in Sources */,
-				397C71762885833900E9442D /* OpenViewController.swift in Sources */,
-				39A457E42885B1210024CBE3 /* MenuView Controller.swift in Sources */,
+				3924CBAA28884BDB00D89EAD /* BasketViewController.swift in Sources */,
+				39A457E42885B1210024CBE3 /* MenuViewController.swift in Sources */,
 				39E5DAC1288432E000C56B9D /* ViewController.swift in Sources */,
 				39E5DABD288432E000C56B9D /* AppDelegate.swift in Sources */,
 				39E5DABF288432E000C56B9D /* SceneDelegate.swift in Sources */,
